@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>大阪京都行程寶典 2026/11/28–12/02</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&display=swap">
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--ink:#1c2540;--mute:#5d6783;--line:#d8dde8;--ind:#2b3a67;--red:#b3282d;--tint:#fbeaea;--chip:#e8ecf5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111521;--card:#1a2032;--ink:#e7eaf3;--mute:#9aa4bf;--line:#2c3550;--ind:#9db0ee;--red:#ff8a8e;--tint:#33222a;--chip:#252d45}}
+:root[data-theme="dark"]{--bg:#111521;--card:#1a2032;--ink:#e7eaf3;--mute:#9aa4bf;--line:#2c3550;--ind:#9db0ee;--red:#ff8a8e;--tint:#33222a;--chip:#252d45}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.75 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+.serif{font-family:"Noto Serif TC","Songti TC",serif}
+header{padding:48px 22px 28px;max-width:720px;margin:0 auto}
+header h1{font:900 clamp(30px,8vw,44px)/1.25 "Noto Serif TC","Songti TC",serif;margin:0 0 10px;color:var(--ind)}
+header p{margin:0;color:var(--mute)}
+header .jet{display:inline-block;margin-top:14px;background:var(--tint);color:var(--red);padding:2px 12px;border-radius:99px;font-size:14px;font-weight:500}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+nav div{display:flex;gap:8px;overflow-x:auto;padding:10px 16px;max-width:720px;margin:0 auto;scrollbar-width:none}
+nav a{flex:none;padding:4px 14px;border-radius:99px;background:var(--chip);color:var(--ink);text-decoration:none;font-size:14px;font-weight:500}
+nav a:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+main{max-width:720px;margin:0 auto;padding:8px 16px 64px}
+section{margin-top:36px}
+h2{font:900 22px/1.4 "Noto Serif TC","Songti TC",serif;margin:0 0 14px;color:var(--ind)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.pledge li{margin:6px 0}
+.pledge ul{margin:0;padding-left:1.2em}
+.sign{margin-top:14px;color:var(--mute);font-size:14px}
+.pack{display:grid;gap:14px}
+.pack h3{font-size:15px;margin:0 0 6px;color:var(--red)}
+.pack label{display:flex;gap:10px;align-items:center;padding:3px 0;cursor:pointer}
+.pack input{width:18px;height:18px;accent-color:var(--red);flex:none}
+.pack input:checked+span{color:var(--mute);text-decoration:line-through}
+.hint{font-size:13px;color:var(--mute);margin:10px 0 0}
+.day{padding:0;overflow:hidden}
+.dh{display:flex;gap:14px;align-items:center;padding:16px 18px;background:var(--ind);color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .dh{color:#111521}}
+:root[data-theme="dark"] .dh{color:#111521}
+.dh b{font:900 30px/1 "Noto Serif TC","Songti TC",serif}
+.dh small{display:block;font-size:13px;opacity:.85}
+.dh span{font-weight:700;font-size:17px;line-height:1.4}
+.tl{list-style:none;margin:0;padding:16px 18px 6px}
+.tl li{position:relative;padding:0 0 16px 22px;border-left:2px solid var(--line);margin-left:6px}
+.tl li::before{content:"";position:absolute;left:-7px;top:9px;width:12px;height:12px;border-radius:50%;background:var(--red);border:2px solid var(--card)}
+.tl em{font-style:normal;font-weight:700;color:var(--red);margin-right:8px}
+.tl .sub{display:block;font-size:14px;color:var(--mute)}
+.meal{background:var(--tint);border-radius:8px;padding:2px 8px}
+details{border-top:1px solid var(--line);padding:0 18px}
+summary{cursor:pointer;padding:12px 0;font-weight:700;color:var(--ind)}
+details p{margin:0 0 12px;font-size:15px;color:var(--mute)}
+.cost{display:flex;justify-content:space-between;gap:10px;padding:12px 18px;border-top:1px solid var(--line);background:var(--chip);font-size:14px}
+.cost b{color:var(--red)}
+.todo{display:flex;flex-wrap:wrap;gap:6px;padding:0 18px 16px}
+.todo span{background:var(--chip);padding:1px 10px;border-radius:99px;font-size:14px}
+.empty{padding:18px;color:var(--mute)}
+footer{text-align:center;color:var(--mute);font-size:14px;padding:0 16px 40px}
+</style>
+</head>
+<body>
+<header>
+<h1>大阪京都<br>行程寶典</h1>
+<p>2026/11/28 – 12/02　五天四夜</p>
+<span class="jet">日本比台灣快一小時</span>
+</header>
+<nav><div>
+<a href="#pledge">旅遊宣誓</a><a href="#pack">物品清單</a><a href="#d1127">11/27</a><a href="#d1128">11/28</a><a href="#d1129">11/29</a><a href="#d1130">11/30</a><a href="#d1201">12/01</a><a href="#d1202">12/02</a>
+</div></nav>
+<main>
+
+<section id="pledge">
+<h2>旅遊宣誓</h2>
+<div class="card pledge">
+<p style="margin-top:0">本人在此鄭重宣誓：</p>
+<ul>
+<li>不可以吵架，不准亂發脾氣，取消生氣 50 分鐘。</li>
+<li>拍照要有耐心，拍到滿意為止。</li>
+<li>看到喜歡就買，花錢買快樂，花光日幣。</li>
+<li>迷路不責怪，臨時有狀況、行程有變，一起面對。</li>
+<li>累了就休息，餓了就吃，是去旅行不是行軍。</li>
+<li>不准把對方丟包，要走在一起。</li>
+</ul>
+<p class="serif" style="font-weight:700;margin:14px 0 0">開開心心出國，平平安安回家</p>
+<p class="sign">宣誓人：＿＿＿＿＿＿ ♡ ＿＿＿＿＿＿　日期：＿＿年＿＿月＿＿日</p>
+</div>
+</section>
+
+<section id="pack">
+<h2>物品清單</h2>
+<div class="card pack" id="packList"></div>
+<p class="hint">勾選會記在這支手機的瀏覽器裡。</p>
+</section>
+
+<section id="d1127">
+<div class="card day">
+<div class="dh"><b>11/27</b><span><small>週五</small>行前預備，先到高雄住一晚</span></div>
+<ul class="tl">
+<li><em>出發</em>從台南出發，抵達高雄橙屋商旅<span class="sub">晚餐：待定</span></li>
+<li><em>隔天</em>預計提早到小港機場第一航廈等飛機<span class="sub">班機：小港 09:00 → 關西 13:10</span></li>
+</ul>
+<div class="todo"><span>☑ 填寫 Visit Japan Web</span><span>☑ 設定 eSIM app</span></div>
+</div>
+</section>
+
+<section id="d1128">
+<div class="card day">
+<div class="dh"><b>11/28</b><span><small>週六</small>抵達關西機場＋大鳥神社</span></div>
+<ul class="tl">
+<li><em>13:10</em>抵達關西機場，預計 14:00 過海關<span class="sub">停第一航廈；沒有的話搭免費接駁車到第一航廈</span></li>
+<li><em>午餐</em><span class="meal">關西機場麥當勞（暫定）</span></li>
+<li><em>買 IC 卡</em>JR（左邊）、南海電鐵（右邊）找藍色或橘色售票機，儲值日幣 5000／台幣約 1000（新鈔不太吃），先備好台幣 2000–3000</li>
+<li><em>大鳥神社</em>JR 阪和線 3/4 月台，到鳳站下車，步行 550 公尺約 7 分鐘<span class="sub">☐ 透明光雕御守</span></li>
+<li><em>回住宿</em>鳳站 → 阪和線 → 天王寺 → 新今宮 → 堺筋線 → 長堀橋，步行 6 分到 Grandia Shinsaibashi</li>
+<li><em>18:30</em><span class="meal">晚餐：あぶりや道頓堀御堂筋店（唐吉訶德道頓堀御堂筋 10 樓）</span><span class="sub">完成抵達大阪，辛苦了，我們好棒！寶包生日快樂 🎂</span></li>
+</ul>
+<details><summary>入境與轉乘細節</summary>
+<p>入境有 A、B、C、D 路線，使用電子通報機台過海關（指紋壓大力一點）。下樓到旋轉盤領行李。從 1 樓前往 2 樓（D 或 E 門）搭地鐵會經過一座天橋。</p>
+<p>搭 JR（往大阪）：臨空城、日根野兩站不要下車，經阪和線京橋、熊取、東岸和田、和泉府中，到鳳站下車。</p>
+<p>回程：從鳳站搭阪和線 JR（經 3 站不要下車）換大阪環狀線約 18 分，在天王寺到新今宮下車，走 Tsutenkaku Tower Gate（East Gate）路標，刷卡進出站，走樓梯從 Tsutenkaku Tower Exit（East Exit）出站，往南走堺筋，在恵美須東３南路口右轉，從 6 號口進站、刷卡、走樓梯到動物園前，搭堺筋線準急行（往京都河原町）3 站約 5 分到長堀橋。</p></details>
+<div class="cost"><span>總交通費</span><b>¥1,310 ≈ NT$265</b></div>
+</div>
+</section>
+
+<section id="d1129">
+<div class="card day">
+<div class="dh"><b>11/29</b><span><small>週日</small>勝尾寺賞楓＋晚上大阪購物</span></div>
+<ul class="tl">
+<li><em>06:45</em>出發，步行 15 分到心齋橋站 M19，搭 2 號線第 10 節車廂</li>
+<li><em>07:35</em>抵達箕面萱野，從北出口搭計程車前往勝尾寺</li>
+<li><em>勝尾寺</em>門票 ¥500（約 NT$100–105）<span class="sub">☐ 蓋印章明信片　☐ 御守＋達摩＋達摩軟糖＋吉伊卡哇存錢筒軟糖</span></li>
+<li><em>路線</em>勝尾寺 → 箕面公園 → 箕面瀑布</li>
+<li><em>午餐</em><span class="meal">Kajikasou Minoh（蕎麥麵）</span></li>
+<li><em>17:00</em><span class="meal">晚餐：夜景 × 包廂肉割烹 牛若丸（梅田店）</span></li>
+</ul>
+<details><summary>回程路線</summary>
+<p>箕面瀑布步行 30–40 分到阪急箕面站（1、2 號線），經 3 站到石橋阪大前，換 2 線經 4 站到大阪梅田站（在這裡吃晚餐）。吃完找御堂筋線往天王寺／中百舌鳥方向，回到心齋橋。</p></details>
+<div class="cost"><span>去程 ¥530（約 NT$110）＋計程車　回程 ¥520（約 NT$105）</span></div>
+</div>
+</section>
+
+<section id="d1130">
+<div class="card day">
+<div class="dh"><b>11/30</b><span><small>週一</small>伏見稻荷＋清水寺</span></div>
+<ul class="tl">
+<li><em>07:00</em>出門，步行 7–10 分到長堀橋</li>
+<li><em>08:40</em>離開伏見稻荷比較保險<span class="sub">伏見稻荷大社約 1 小時</span></li>
+<li><em>09:00</em>步行 2 分搭稻荷奈良線回京都車站<span class="sub">☑ 10:00 璃光和服（Riko Kimono）</span></li>
+<li><em>清水寺</em>約 30–40 分鐘，預計 14:30 離開</li>
+</ul>
+<details><summary>去程：往伏見稻荷</summary>
+<p>長堀橋搭堺筋線（往北千里）到北濱，步行約 3 分換京阪本線，經丹波橋不用換車，原班車到伏見稻荷，出站步行約 350 公尺。列車時間可能變動，當天以 Google Map 為準。</p></details>
+<details><summary>轉乘：往清水寺</summary>
+<p>下車後步行 5 分到東福寺，找改札口路標，等 202 號公車 B 站牌，搭到五條坂下車（步行 650 公尺約 11 分）。清水道也可以下車，目前查到五條坂比較好走。</p></details>
+<div class="cost"><span>交通 ¥1,080 ＋ ¥380（約 NT$216 ＋ 76）</span><b>和服 NT$2,081</b></div>
+<div class="cost" style="border-top:0"><span>和服租借 ¥9,900 ＋ 髮型 ¥1,650</span></div>
+</div>
+</section>
+
+<section id="d1201">
+<div class="card day">
+<div class="dh"><b>12/01</b><span><small>週二</small>黑門市場與海遊館</span></div>
+<ul class="tl">
+<li><em>08:30</em>出發，步行 15 分到黑門市場</li>
+<li><em>黑門市場</em><span class="meal">鶴屋（和牛壽喜燒）</span> <span class="meal">石橋（關東煮）</span> <span class="meal">魚豐（老奶奶鰻魚飯）</span> <span class="meal">黑門三平（下午有半價折扣）</span></li>
+<li><em>11:15</em>海遊館入場<span class="sub">☑ 門票已備，約 NT$540</span></li>
+</ul>
+<div class="cost"><span>交通</span><b>¥290 ≈ NT$60</b></div>
+</div>
+</section>
+
+<section id="d1202">
+<div class="card day">
+<div class="dh"><b>12/02</b><span><small>週三</small>返程</span></div>
+<p class="empty">原始文件還沒有這一天的內容，補上後可以加進來。</p>
+</div>
+</section>
+
+</main>
+<footer>♡ 旅途愉快 ♡</footer>
+
+<script>
+(function(){
+var G=[
+["證件・金錢",["護照／護照備份","機票／電子登機證","住宿確認資料","日幣現金／零錢包","信用卡／金融卡","ICOCA／Suica"]],
+["衣物・穿搭",["上衣 × 4","下身 × 3","內衣褲 × 4～5","襪子 × 4～5","睡衣","薄外套","舒適步行鞋","備用鞋","帽子／飾品／髮圈","髒衣收納袋"]],
+["盥洗・保養",["牙刷*","牙膏","洗面乳／卸妝用品","化妝水／精華液","乳液／乳霜","防曬乳","化妝品／護唇膏","梳子／髮圈","衛生紙／濕紙巾*","衛生用品"]],
+["電子・通訊",["手機／充電線","充電頭","行動電源（隨身）","耳機","相機／自拍棒","eSIM／網卡","轉接頭（視需要）"]],
+["健康・常備藥",["處方藥／原包裝","氣喘噴氣","指甲剪","OK 繃","口罩／消毒用品"]],
+["隨身旅行小物",["隨身包／零錢包","摺疊購物袋","摺疊傘","水壺／手帕","行李箱／行李鎖","行李吊牌","收納袋／壓縮袋","垃圾小袋／筆"]],
+["出發前確認",["Visit Japan Web*","航班／航廈資訊","手提與托運額度","離線地圖／飯店地址","eSIM 啟用方式*","海外刷卡功能*","旅平險＋不便險*"]],
+["餐廳＋門票",["勝尾寺門票","海遊館門票 11:15*","璃光和服 10:00*"]]
+];
+var K="jp-trip-checks",saved=null;
+try{saved=JSON.parse(localStorage.getItem(K)||"null")}catch(e){}
+var box=document.getElementById("packList"),html="";
+G.forEach(function(g,i){
+html+='<div><h3>'+g[0]+'</h3>';
+g[1].forEach(function(t,j){
+var id=i+"-"+j,def=/\*$/.test(t),name=t.replace(/\*$/,"");
+var on=saved&&id in saved?saved[id]:def;
+html+='<label><input type="checkbox" data-id="'+id+'"'+(on?" checked":"")+'><span>'+name+'</span></label>';
+});
+html+='</div>';
+});
+box.innerHTML=html;
+box.addEventListener("change",function(){
+var s={};
+box.querySelectorAll("input").forEach(function(c){s[c.dataset.id]=c.checked});
+try{localStorage.setItem(K,JSON.stringify(s))}catch(e){}
+});
+})();
+</script>
+</body>
+</html>
